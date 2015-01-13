@@ -1,2 +1,7 @@
 #ignore .pyc files
 *.pyc
+#ignore the test dataset
+test_dataset.txt
+#ignore the playground.py where all modular testing is done on the local machine
+playground.py
+.DS_Store
