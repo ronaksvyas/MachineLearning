@@ -16,3 +16,7 @@ def update_config_data(key , value):
 #get config data
 def get_config_data():
 	return config_data
+
+#calculate hypothesis function h(x) = theta_0 + (theta_1)*x for linear regression
+def calculate_hypothesis_function(theta_0,theta_1,x):
+	return theta_0 + (theta_1 * x)
